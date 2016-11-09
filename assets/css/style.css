@@ -1,0 +1,553 @@
+body, h1, h2, h3, h4, h5, h6, div, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, iframe {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "microsoft YAHEI";
+  line-height: 1.5;
+  font-size: 14px;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+fieldset, img, button {
+  border: 0;
+}
+
+address, caption, cite, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+input[type=checkbox], input[type=radio] {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+}
+
+body, html {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #f7f7fc;
+}
+
+#container .bar {
+  position: relative;
+  height: 1rem;
+  background-color: #fff;
+}
+
+#container .bar .btn {
+  position: absolute;
+  right: .2rem;
+  top: .2rem;
+}
+
+#container .bar h5 {
+  font-size: 13px;
+  margin-left: .2rem;
+  padding-top: .1rem;
+}
+
+#container #index img {
+  width: 100%;
+  height: auto;
+}
+
+#container #index p {
+  margin-left: .2rem;
+}
+
+#container #index .emma-banner {
+  position: relative;
+}
+
+#container #shopping-car .item {
+  height: 2.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: .2rem;
+}
+
+#container #shopping-car .item .goods {
+  width: 2.2rem;
+  height: 1.8rem;
+  margin-top: .3rem;
+}
+
+#container #shopping-car .item .goods img {
+  width: 100%;
+}
+
+#container #shopping-car .item .icon-sel {
+  margin-top: 1rem;
+  margin-right: .2rem;
+  height: .34rem;
+  width: .34rem;
+  background-image: url(../images/radio_checked.png);
+}
+
+#container #shopping-car .item .info {
+  height: 1.8rem;
+  margin-top: .3rem;
+  margin-left: .5rem;
+}
+
+#container #shopping-car .item .info .name {
+  font-size: 16px;
+}
+
+#container #shopping-car .item .info .price {
+  font-size: 12px;
+  color: #bbb;
+}
+
+#container #shopping-car .pay {
+  position: absolute;
+  bottom: 1.2rem;
+  width: 100%;
+  line-height: .9rem;
+}
+
+#container #shopping-car .pay h6 {
+  margin-left: .2rem;
+}
+
+#container #shopping-car .pay .btn-full.btn {
+  font-size: 16px;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 2rem;
+  border-radius: 0;
+}
+
+#container #person header {
+  background-color: #fff;
+  height: 1.2rem;
+  padding: .4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#container #person header img {
+  height: 100%;
+  margin-right: .4rem;
+}
+
+#container #person header h1 {
+  font-size: 18px;
+  margin-top: .2rem;
+}
+
+#container #person header p {
+  color: #aaa;
+}
+
+#container #person ul li {
+  padding: .3rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#container #person ul li .icon {
+  float: left;
+  margin-top: .08rem;
+}
+
+#container #person ul li .icon-rhombus {
+  height: .24rem;
+  width: .24rem;
+  background-image: url(../images/icon01.png);
+}
+
+#container #person ul li .icon-rect {
+  height: .18rem;
+  width: .18rem;
+  background-image: url(../images/icon03.png);
+}
+
+#container #person ul li .icon-circle {
+  height: .2rem;
+  width: .2rem;
+  background-image: url(../images/icon05.png);
+}
+
+#container #person ul li .icon-triangle {
+  height: .16rem;
+  width: .2rem;
+  background-image: url(../images/icon07.png);
+}
+
+#container #person ul li .des {
+  padding-left: .5rem;
+}
+
+#container #person ul li .des h4 {
+  font-size: 16px;
+}
+
+#container #person ul li .des p {
+  color: #bbb;
+}
+
+#container #person ul li.disable .des h4 {
+  color: #bbb;
+}
+
+#container .log-reg {
+  background-color: #fff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#container .log-reg header {
+  background-color: #f7f7fc;
+  padding-top: .4rem;
+}
+
+#container .log-reg header img {
+  width: 1.88rem;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#container .log-reg header .nav {
+  width: 100%;
+  height: .8rem;
+  text-align: center;
+  padding-top: .8rem;
+}
+
+#container .log-reg header .nav button {
+  width: 50%;
+  float: left;
+  line-height: .8rem;
+  font-size: 16px;
+  position: relative;
+  color: #bbb;
+}
+
+#container .log-reg header .nav button.active {
+  color: #333;
+}
+
+#container .log-reg header .nav button.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top: 8px solid #f7f7fc;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+#container .log-reg .form {
+  padding-top: .3rem;
+  width: 5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#container .log-reg .form input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  display: block;
+  height: .7rem;
+  line-height: .5rem;
+  margin: .4rem 0;
+}
+
+#container .log-reg .form .btn-sub {
+  width: 100%;
+  background-color: #000;
+  height: .8rem;
+  color: #fff;
+  margin-top: .4rem;
+}
+
+#container .log-reg .form p {
+  color: #aaa;
+  margin-top: .1rem;
+}
+
+#container .log-reg .ad {
+  text-align: center;
+  color: #aaa;
+  margin-top: .6rem;
+}
+
+#container #detail img {
+  display: block;
+  width: 100%;
+}
+
+#container #detail .detail {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: .1rem .4rem;
+}
+
+#container #detail .detail .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#container #detail .detail .des {
+  color: #aaa;
+  padding: .1rem 0;
+}
+
+#container #detail .detail .price {
+  color: #f00;
+  font-size: 16px;
+}
+
+#container #detail .info {
+  padding: .1rem .5rem;
+  background-color: #fff;
+}
+
+#container #detail .info li {
+  padding: .1rem 0;
+  margin-left: .1rem;
+  list-style-type: square;
+}
+
+#container #detail .info li.disable {
+  color: #aaa;
+}
+
+#container #detail .bar {
+  border-top: 1px solid #ddd;
+  bottom: 1rem;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+
+#container #detail .bar .icon-car {
+  background-image: url(../images/car.png);
+  height: .4rem;
+  width: .4rem;
+  margin-top: .2rem;
+  margin-left: .2rem;
+}
+
+#container #detail .bar .btn {
+  height: .6rem;
+  top: .1rem;
+  width: 2rem;
+  position: relative;
+}
+
+#container #detail .bar .btn.btn-addCar {
+  margin-right: .1rem;
+  background-color: #5a5a5a;
+}
+
+#container footer#nav {
+  width: 100%;
+  height: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #d7d7d7;
+  background-color: #fff;
+}
+
+#container footer#nav li {
+  width: 33.3333%;
+  text-align: center;
+  height: 1rem;
+  padding-top: .2rem;
+  float: left;
+}
+
+#container footer#nav li span.icon {
+  height: .4rem;
+  width: .4rem;
+}
+
+#container footer#nav li .icon-collection {
+  background-image: url(../images/selected.png);
+}
+
+#container footer#nav li .icon-car {
+  background-image: url(../images/car.png);
+}
+
+#container footer#nav li .icon-person {
+  background-image: url(../images/person.png);
+}
+
+#container footer#nav li.active .icon-collection {
+  background-image: url(../images/selected_active.png);
+}
+
+#container footer#nav li.active .icon-car {
+  background-image: url(../images/car_active.png);
+}
+
+#container footer#nav li.active .icon-person {
+  background-image: url(../images/person_active.png);
+}
+
+#container span.icon {
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+#container .btn {
+  display: inline-block;
+  width: 1rem;
+  height: .5rem;
+  text-align: center;
+  border-radius: 3px;
+}
+
+#container .btn.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+
+#association-area #demoflag{
+    height: 66px;
+    width: 66px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+#association-area {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+    background-image: url(../images/login/bg.jpg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+#association-area   .logo{
+    width: 212px;
+    height: 115px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0px;
+    margin: auto;
+    position: absolute;
+  }
+
+#association-area   .form{
+    width: 240px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 250px;
+  }
+#association-area   .form input{
+    height: 40px;
+    width: 100%;
+    color:#fff;
+    text-indent: 2em;
+    border: none;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 20px;
+  }
+#association-area   #pwd{
+    margin-top: 20px;
+  }
+ #association-area  #btn-association{
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    color:#fff;
+    font-size: 18px;
+    left: 0;
+    right: 0;
+    text-shadow : 0 0 5px rgba(255,255,255,.2);
+  }
+
+
+
+
